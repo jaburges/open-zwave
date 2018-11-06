@@ -100,7 +100,7 @@ BarrierOperator::BarrierOperator
 ):
 CommandClass( _homeId, _nodeId )
 {
-
+       SetStaticRequest( StaticRequest_Values );
 }
 
 
